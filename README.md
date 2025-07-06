@@ -1,70 +1,84 @@
-# Getting Started with Create React App
+React Admin Dashboard
+An elegant, modern Admin Dashboard built with React, Tailwind CSS, shadcn/ui, and dnd-kit. It features dynamic theme switching, animated UI, draggable Kanban board, integrated charts, calendar, live clock & greetings, and a responsive layout.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+✨ Features
+🌙 Dark / Light Mode toggle
 
-In the project directory, you can run:
+👤 Profile dropdown with glowing ring
 
-### `npm start`
+⏰ Live Clock & Dynamic Greeting
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+📊 Responsive charts (Recharts)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+📅 Interactive calendar (React-DatePicker or similar)
 
-### `npm test`
+🗂️ Kanban Board with drag & drop
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+📈 Dynamic revenue data (auto-cycling by month)
 
-### `npm run build`
+🧠 System health, team info, recent activity
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+💡 Neon-themed border animation for a lively look
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+🛠️ Tech Stack
+React
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Tailwind CSS
 
-### `npm run eject`
+shadcn/ui
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+@dnd-kit/core
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Recharts
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Lucide Icons
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Date-fns / React-Datepicker (for calendar)
 
-## Learn More
+🚀 Getting Started
+1. Clone the repo
+bash
+Copy
+Edit
+git clone https://github.com/your-username/admin-dashboard.git
+cd admin-dashboard
+2. Install dependencies
+bash
+Copy
+Edit
+npm install
+3. Run the development server
+bash
+Copy
+Edit
+npm start
+📁 Folder Structure
+pgsql
+Copy
+Edit
+src/
+├── components/
+│   ├── ui/
+│   ├── ClockGreeting.jsx
+│   └── Topbar.jsx
+├── pages/
+│   └── Dashboard.jsx
+├── lib/
+│   └── utils.js
+├── App.jsx
+├── index.js
+├── index.css
+📌 Customization
+🌈 You can easily swap out chart data, profile info, or add more cards.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+🎨 Modify color themes in tailwind.config.js or via classNames.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+🧩 Add more shadcn components using:
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+bash
+Copy
+Edit
+npx shadcn add [component-name]
+📃 License
+MIT © ArjitYadavCYGNUS
